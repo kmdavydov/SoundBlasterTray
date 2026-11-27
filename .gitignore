@@ -1,0 +1,23 @@
+# This public repository contains documentation and issue templates only.
+*.exe
+*.dll
+*.pdb
+*.zip
+*.log
+*.cs
+*.csproj
+*.sln
+*.ps1
+*.cjs
+*.xaml
+*.iss
+settings.xml
+bin/
+obj/
+src/
+tests/
+tools/
+installer/
+dist/
+.vs/
+.codex/
