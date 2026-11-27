@@ -1,4 +1,4 @@
-# SoundBlasterTray — speaker & headphone switcher for Creative
+﻿# SoundBlasterTray — speaker & headphone switcher for Creative
 
 **Your Sound Blaster output, one tray click away.**
 
@@ -23,6 +23,7 @@ By [kmdavydov](https://github.com/kmdavydov). An independent community utility, 
 - Set separate volume levels for speakers and headphones.
 - Temporary muting and volume checks during switching.
 - Optional startup with Windows.
+- Runs locally without an account or sign-in.
 - Automatic light/dark theme based on the Windows app theme.
 - Russian UI on Russian Windows display languages; English otherwise.
 - Automatic detection of compatible Creative devices, with explanations when switching is unavailable.
@@ -39,10 +40,12 @@ By [kmdavydov](https://github.com/kmdavydov). An independent community utility, 
 
 No. SoundBlasterTray is a focused companion for people who use Sound Blaster Command: it handles speaker/headphone switching and the volume applied during a switch. It does not replace Command's equalizer, effects or device configuration. It talks to the installed Creative driver rather than automating the Command window.
 
+**Does Sound Blaster Command need to stay open?** No. SoundBlasterTray uses the installed driver directly; the Command window can remain closed.
+
 ## Download and install
 
 1. Open [Releases](https://github.com/kmdavydov/SoundBlasterTray/releases/latest).
-2. Under **Assets**, download `SoundBlasterTray-1.3.0-Setup.exe`. GitHub's automatically generated “Source code” archives contain this documentation, not the application.
+2. Under **Assets**, download `SoundBlasterTray-1.3.1-Setup.exe`. GitHub's automatically generated “Source code” archives contain this documentation, not the application.
 3. Close a running SoundBlasterTray instance using **Exit** in its tray menu before installing or updating.
 4. Run the installer. Installation is per-user and does not require administrator rights.
 5. Open Settings and choose suitable volume levels before your first switch. Defaults: **speakers 90%, headphones 20%**.
